@@ -16,9 +16,9 @@
 
     {% for genre in genres %}
     <div class="panel" style="margin-left:30px; margin-right:30px; background:#b3d6ff; font-family:\" Times New Roman\ ", Times, serif">
-        <a href="{{url_for('showBooks', genre_id = genre.id)}}">
+
             <h3>{{genre.name}}</h3>
-        </a>
+        
         <p>{{genre.description}}</p>
         <hr>
     </div>
